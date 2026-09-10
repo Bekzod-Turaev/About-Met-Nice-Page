@@ -1,47 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    padding: 30px;
 }
 
 .container{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: #719EF4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a{
+    color: #111;
 }
 
 /* <!-- =================================================       
                      NAVBAR SECTION
  ================================================= --> */
 
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav img{
     width: 60px;
     height: 35px;
 }
 
+.turned_on{
+    color: #719EF4;
+}
 
+.pages{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
+ul li{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+ 
+ul li:hover{
+    color: #719EF4;
+}
 
+.turn_rigt{
+    width: 26px;
+}
 
+/* <!-- =================================================
+                     HERO SECTION 
+================================================= -->-- */
 
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
 
+.sociak_medias svg{
+    width: 40px;
+    color: white;
+    background-color: #719EF4;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px 20px 30px 0;
+}
 
+.meet{
+    width: 450px;
+    height: 590px;
+    border-radius: 100px;
+}
 
+.about_matt h1{
+    font-size: 6rem;
+    color: #111;
+    font-weight: 500;
+}
 
+.about_matt h2{
+    font-family: "Alata", sans-serif;
+    font-size: 36px;
+    color: #719EF4;
+    letter-spacing: 1px;
+}
 
+.hire_me{
+    margin: 30px 0;
+    padding: 25px 45px;
+    border-radius: 39px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.hire_me :hover, .sociak_medias svg:hover{
+    background-color: #9AB0F5;
+}
 
 
 
