@@ -9,14 +9,15 @@
     font-family: "Open Sans", sans-serif;
 }
 
-body{
+/* body{
     padding: 30px;
-}
+} */
 
 .container{
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 ul{
@@ -37,7 +38,9 @@ button{
 
 a{
     color: #111;
+    text-decoration: none;
 }
+
 
 /* <!-- =================================================       
                      NAVBAR SECTION
@@ -123,37 +126,166 @@ ul li:hover{
     border-radius: 39px;
 }
 
+.hire_me:hover{
+    background-color: #9AB0F5;
+    transition: 0.3s;
+}
+
 .hire_me :hover, .sociak_medias svg:hover{
     background-color: #9AB0F5;
 }
 
+.skills_section h1, .experiance_section h1{
+    font-family: "Alata", sans-serif;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;   
+}
 
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
 
+.skil_card{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7190F0;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    max-width: 270px;
 
+}
 
+.skil_card img{
+    width: 100px;
+    height: 75px;
+}
 
+.skil_card h2, .skil_card span{
+    margin: 10px 0;
+}
 
+/* <!-- =================================================
+                     EXPERIANCE SECTION
+================================================= --> */
 
+.experiance_section{
+    background-color: #F0F3FE;
+    padding: 50px;
+}
 
+.experiance{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
 
+.experiance{
+    display: flex;
+    justify-content: space-between;
+}
 
+.row{
+    padding: 30px;
+    margin: auto;
+    width: 900px;
+    border-bottom: 1px solid #7190F0;
 
+}
 
+.location_a svg{
+    width: 20px;
+    height: 25px;
+}
 
+.web{
+    font-size: 24px;
+    font-weight: 600;
+} 
 
+.time{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+}
 
+.experience_right_part{
 
+    max-width: 800px;
+}
 
+.experience_right_part span{
+    font-size: 18px;
+    font-weight: 600;
+}
 
+.location_a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7190F0;
+}
 
+.location_a:hover{
+    color: #587CEE;
+}
 
+/* <!-- =================================================
+                     EXPERIANCE TIME SECTION
+================================================= --> */
 
+.ex_time{
+    padding-top: 100px;
+    display: flex;
+}
 
+.ex_time_left_part, .ex_time_left_part{
+    width: 50%;
+}
 
+.ex_time_left_part h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
 
+.ex_time_left_part p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    max-width: 600px;
+}
 
+.ex_time_right_part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
 
+.clients h1{
+    font-size: 3.425rem;
+    color: #587CEE;
+}
 
+.clients p{
+    font-size: 25px;
+    font-weight: 400;
+}
 
 
 
