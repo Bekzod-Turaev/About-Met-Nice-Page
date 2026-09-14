@@ -6,12 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
 }
 
-/* body{
-    padding: 30px;
-} */
+body{
+    /* padding: 30px; */
+    padding-top: 30px;
+}
 
 .container{
     width: 100%;
@@ -49,6 +49,7 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
 }
 
 .nav img{
@@ -90,6 +91,7 @@ ul li:hover{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .sociak_medias svg{
@@ -188,13 +190,9 @@ ul li:hover{
 
 .experiance{
     display: flex;
-    align-items: center;
     padding-top: 50px;
-}
-
-.experiance{
-    display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .row{
@@ -224,16 +222,26 @@ ul li:hover{
 }
 
 .experience_right_part{
-
     max-width: 800px;
 }
 
+.experience_right_part h3{
+    padding: 0 0 20px 0;
+}
+
+.experience_right_part{
+    font-size: 20px;
+}
+
 .experience_right_part span{
+    font-family: "Open Sans", sans-serif;
+    line-height: 35px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .location_a{
+    padding-top: 20px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -287,11 +295,30 @@ ul li:hover{
     font-weight: 400;
 }
 
+/* <!-- =================================================
+                     MY EDUCATION SECTION
+================================================= --> */
 
+.education{
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+}
 
+.course{
+    font-weight: 600;
+    padding-bottom: 25px;
+}
 
+.colums{
+    line-height: 40px;
+    
+}
 
+.bottom_a{
+    padding-top: 25px;
 
+}
 
 
 
