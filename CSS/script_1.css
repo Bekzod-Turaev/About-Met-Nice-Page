@@ -320,12 +320,86 @@ ul li:hover{
 
 }
 
+/* <!-- =================================================
+                      WORK TABLE SECTION
+    ================================================= --> */
 
+.work_table{
+    background-color: #F0F3FE;
+    padding: 20px 0;
+}
 
+.work_table .container{
+    display: flex;
+    gap: 30px;
 
+}
 
+.work_table_left_part, .work_table_right_part{
+    width: 50% ;
+}
 
+.work_table_left_part{
+    background-color: white;
+    padding: 70px 40px;
+}
 
+.work_table_left_part h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.work_table_left_part h1{
+    padding: 15px 0;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.work_table svg{
+    width: 50px;
+    color: white;
+    background-color: #7190F0;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.work_table_left_part p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.work_table_left_part p a{
+    border-bottom: 1px solid #111;
+}
+.work_table_left_part p a:hover{
+    border-bottom: 1px solid #587CEE;
+}
+
+.line{
+    border: 1px solid #C0C0C0;
+    margin: 30px 0;
+}
+
+.phone, .mett_email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.phone_number a{
+    color: #7190F0 ;
+    font-size: 25px;
+    padding: 10px 0 10px 70px ;
+}
+
+.work_table_tight_part img{
+    width: 500px;
+    height: 630px;
+    border-radius: 30px;
+}
 
 
 
