@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 30px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: #719EF4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a{
+    color: #111;
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+nav img{
+    cursor: pointer;
+}
+
+/* <!-- =================================================       
+                     NAVBAR SECTION
+ ================================================= --> */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav img{
+    width: 60px;
+    height: 35px;
+}
+
+.turned_on a{
+    color: #719EF4;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li a{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+ 
+ul li a:hover{
+    color: #719EF4;
+}
+
+.turn_rigt{
+    width: 26px;
+}
+
+/* <!-- =================================================       
+                    MY BLOG SECTION
+================================================= --> */
+
+.blog{
+    background-color: #F0F3FE;
+}
+
+.blog .container{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.blog h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+ /* <!-- =================================================       
+                     MY BLOG - CARDS SECTION
+================================================= -->  */
+
+.card{
+    display: flex;
+    gap: 30px;
+    line-height: 70px;
+    padding: 0px 0 50px;
+}
+
+.card h1{
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.card h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 570px;
+    line-height: 30px;
+}
+
+.card img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #999999;
+}
+
+.card_left_part a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #719EF4;
+    border-bottom: 2px solid #719EF4;
+}
+
+
+
+/* <!-- =================================================
+                      CREATE FOOTER
+================================================= --> */
+
+footer{
+    background-color: #F0F3FE;
+    height: 340px;
+}
+
+footer .container{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    color: #759BF2;
+}
+footer h1{
+    font-weight: 400;
+}
+
+footer .sociak_medias svg{
+    background-color: transparent;
+    color: #759BF2;
+    margin: 0px;
+    margin-top: 30px;
+}
+footer .sociak_medias svg:hover{
+    background-color: transparent;
+}
+
+.right_create{
+    text-align: right;
+}
+
+.right_create h1{
+    padding: 20px 0;
+}
+
+.right_create a{
+    font-weight: 600;
+    color: #759BF2;
+}
+.right_create a:hover{
+    color: #587CEE;
+}
+
+.create svg{
+    width: 40px;
+    color: white;
+    background-color: #719EF4;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px 20px 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

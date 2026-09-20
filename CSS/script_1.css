@@ -9,8 +9,8 @@
 }
 
 body{
-    /* padding: 30px; */
     padding-top: 30px;
+    /* padding-left: 17px; */
 }
 
 .container{
@@ -46,6 +46,10 @@ input{
     outline: none;
 }
 
+nav img{
+    cursor: pointer;
+}
+
 /* <!-- =================================================       
                      NAVBAR SECTION
  ================================================= --> */
@@ -61,7 +65,7 @@ nav{
     height: 35px;
 }
 
-.turned_on{
+.turned_on a{
     color: #719EF4;
 }
 
@@ -71,14 +75,14 @@ nav{
     gap: 30px;
 }
 
-ul li{
+ul li a{
     cursor: pointer;
     font-size: 18px;
     font-weight: 700;
     padding: 10px 20px;
 }
  
-ul li:hover{
+ul li a:hover{
     color: #719EF4;
 }
 
