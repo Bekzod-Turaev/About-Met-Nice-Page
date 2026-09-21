@@ -84,3 +84,181 @@ ul li a:hover{
 .turn_rigt{
     width: 26px;
 }
+
+/* <!-- =================================================
+                     HERO SECTION 
+================================================= -->-- */
+
+.hero {
+    background: linear-gradient(to top, #F0F3FE 20%, white 10%);
+
+}
+
+.senter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sociak_medias svg{
+    width: 40px;
+    color: white;
+    background-color: #719EF4;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px 20px 30px 0;
+}
+
+.meet{
+    width: 450px;
+    height: 590px;
+    border-radius: 100px;
+}
+
+.about_matt h1{
+    font-size: 6rem;
+    color: #111;
+    font-weight: 500;
+}
+
+.about_matt h2{
+    font-family: "Alata", sans-serif;
+    font-size: 36px;
+    color: #719EF4;
+    letter-spacing: 1px;
+}
+
+.hire_me{
+    margin: 30px 0;
+    padding: 25px 45px;
+    border-radius: 39px;
+}
+.hire_me:hover{
+    background-color: #9AB0F5;
+}
+
+.sociak_medias svg{
+    background-color: #9AB0F5;
+}
+
+.skills_section{
+    background-color: #F0F3FE;
+    padding-bottom: 30px;
+}
+
+.skills_section h1, .experiance_section h1{
+    font-family: "Alata", sans-serif;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;   
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.skil_card{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7190F0;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    max-width: 270px;
+
+}
+
+.skil_card img{
+    width: 100px;
+    height: 75px;
+}
+
+.skil_card h2, .skil_card span{
+    margin: 10px 0;
+}
+
+/* <!-- =================================================
+                     EXPERIANCE SECTION
+================================================= --> */
+
+.experiance_section{
+    background-color: #F0F3FE;
+    padding: 50px;
+}
+
+.experiance{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.row{
+    padding: 30px;
+    margin: auto;
+    width: 900px;
+    border-bottom: 1px solid #7190F0;
+
+}
+
+.location_a svg{
+    width: 20px;
+    height: 25px;
+}
+
+.web{
+    font-size: 24px;
+    font-weight: 600;
+} 
+
+.time{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.experience_right_part{
+    max-width: 800px;
+}
+
+.experience_right_part h3{
+    padding: 0 0 20px 0;
+}
+
+.experience_right_part{
+    font-size: 20px;
+}
+
+.experience_right_part span{
+    font-family: "Open Sans", sans-serif;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location_a{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7190F0;
+}
+
+.location_a:hover{
+    color: #587CEE;
+}
