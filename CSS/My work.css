@@ -276,3 +276,191 @@ section{
 .location_a:hover{
     color: #587CEE;
 }
+/* 
+<!-- =================================================
+                     CARDS SECTION
+================================================= --> */
+
+.enter_section{
+    display: flex;
+    gap: 30px;
+}
+
+
+.left_enter_section, 
+.right_enter_section{
+    width: 50% ;
+}
+
+.imgs_cards h3{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 30px;
+    font-weight: 400;
+}
+
+.first_img_cards{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.img_card{
+    border-radius: 40px;
+    background-color: #7190F0;
+    color: white;
+}
+
+.img_card h2{
+    font-family: "Alata", sans-serif;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.img_card h1{
+    padding-bottom: 30px;
+    font-weight: 400;
+    padding: 0px 20px 15px;
+
+}
+
+.img_card img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 360px;
+    height: 300px;
+}
+
+.pading-top{
+    padding-top: 30px;
+}
+
+/* <!-- =================================================
+                      ENTER SECTION
+ ================================================= --> */
+
+.enter_section{
+    padding: 0 50px;
+
+}
+
+.left_enter_section h1, .right_enter_section{
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.enter{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.enter input{
+    padding: 20px 0 15px 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #111;
+    width: 80%;
+}
+
+.left_enter_section button{
+    margin: 25px 0;
+    padding: 22px 200px;
+    border-radius: 30px;
+}
+.left_enter_section button:hover{
+    background-color: #111;
+}
+
+
+.right_enter_section img{
+    width: 500;
+    height: 500px;
+}
+
+/* <!-- =================================================
+                      CREATE FOOTER
+================================================= --> */
+
+footer{
+    background-color: #F0F3FE;
+    height: 340px;
+}
+
+footer .container{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    color: #759BF2;
+}
+footer h1{
+    font-weight: 400;
+}
+
+footer .sociak_medias svg{
+    background-color: transparent;
+    color: #759BF2;
+    margin: 0px;
+    margin-top: 30px;
+}
+footer .sociak_medias svg:hover{
+    background-color: transparent;
+}
+
+.right_create{
+    text-align: right;
+}
+
+.right_create h1{
+    padding: 20px 0;
+}
+
+.right_create a{
+    font-weight: 600;
+    color: #759BF2;
+}
+.right_create a:hover{
+    color: #587CEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
