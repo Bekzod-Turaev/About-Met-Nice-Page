@@ -398,13 +398,60 @@ ul li a:hover{
     color: white;
 }
 
+/* <!-- =================================================
+                     FREDERICK SECTION
+================================================= --> */
+
+.comments{
+    background-color: #F0F3FE;
+    padding: 10px 0 60px;
+}
+
+.comments .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner, .dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.innrner_text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 0 50px;
+}
+
+.innrner_text p{
+    max-width: 660px;
+    margin-bottom: 40px;
+}
+
+.inner svg{
+    cursor: pointer;
+    width: 45px;
+    height: 55px;
+    color: #587CEE;
+}
 
 
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(196,209,249);
+    margin-top: 30px;
+}
 
-
-
-
-
+.dot:hover{
+    background-color: #7190F0;
+}
 
 
 
