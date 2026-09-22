@@ -539,7 +539,36 @@ ul li a:hover{
     border-radius: 30px;
 }
 
+ /* <!-- =================================================
+                      MEETS CLIENTS SECTION
+    ================================================= --> */
 
+.clients{
+    padding: 35px;
+}
+
+.clients h1{
+    font-size: 48px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.client_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.client_cards img{
+    width: 80%;
+    height: 180px;
+    background-color: #F0F3FE;
+    padding: 50px;
+    border-radius: 50px; /* ВАЖНО! */
+    object-fit: contain;
+}
 
 
 
