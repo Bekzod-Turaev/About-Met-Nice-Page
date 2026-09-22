@@ -9,7 +9,8 @@
 }
 
 body{
-    padding-top: 30px;
+    padding: 30px 0;
+    
 }
 
 .container{
@@ -44,6 +45,21 @@ input{
     border: none;
     outline: none;
 }
+
+.from{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.from a{
+    border-bottom: 1px solid black;
+}
+
+.from a:hover{
+    border-bottom: 1px solid #587CEE;
+}
+
 
 /* <!-- =================================================       
                      NAVBAR SECTION
@@ -98,6 +114,7 @@ ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
 }
 
 .sociak_medias svg{
@@ -142,8 +159,8 @@ ul li a:hover{
 }
 
 .skills_section{
-    background-color: #F0F3FE;
     padding-bottom: 30px;
+    background: linear-gradient(to top, #F0F3FE 50%, white 50%);
 }
 
 .skills_section h1, .experiance_section h1{
@@ -158,7 +175,6 @@ ul li a:hover{
 .skills{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
 }
 
 .skil_card{
@@ -176,7 +192,7 @@ ul li a:hover{
     font-weight: 500;
     line-height: 35px;
     max-width: 270px;
-
+    object-fit: cover;
 }
 
 .skil_card img{
@@ -232,14 +248,37 @@ ul li a:hover{
 
 .experience_right_part{
     max-width: 800px;
+    font-size: 20px;
 }
 
 .experience_right_part h3{
     padding: 0 0 20px 0;
 }
 
-.experience_right_part{
+.yers_exp{
+    position: absolute;
+    color: white;
+    background-color: #7190F0;
+    border-radius: 100px;
+    padding: 70px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: -10%;
+    right: 35%;
+}
+
+.yers_exp h1{
+    font-size: 60px;
+}
+
+.yers_exp p{
     font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
 }
 
 .experience_right_part span{
@@ -262,3 +301,114 @@ ul li a:hover{
 .location_a:hover{
     color: #587CEE;
 }
+
+/* <!-- =================================================
+                     NUMBERS SECTION
+================================================= --> */
+
+.numbers{
+    background-color: #F0F3FE;
+    padding: 40px 0;
+}
+
+.numbers .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.numbers .container .num h1{
+    font-size: 60px;
+    color: #7190F0;
+    padding-bottom: 15px;
+}
+
+.numbers .container .num p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* <!-- =================================================
+                     GREATING SECTION
+================================================= --> */
+
+.greating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.greating img{
+    width: 52px;
+    height: 52px;
+}
+
+.greating h1{
+    font-size: 48px;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.greating p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 38.4px;
+    text-align: center;
+}
+
+/* <!-- =================================================
+                     METT RELAX SECTION
+================================================= --> */
+
+.relax{
+    cursor: pointer;
+}
+
+.relax .container{
+    display: flex;
+    gap: 100px; 
+}
+
+.relax .quality{
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.plus h2{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+.plus span{
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: #7190F0;
+    border-radius: 50%;
+    padding: 5px 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: "Open Sans", sans-serif; */
