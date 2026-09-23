@@ -544,7 +544,7 @@ ul li a:hover{
     ================================================= --> */
 
 .clients{
-    padding: 35px;
+    padding: 30px;
 }
 
 .clients h1{
@@ -569,6 +569,90 @@ ul li a:hover{
     border-radius: 50px; /* ВАЖНО! */
     object-fit: contain;
 }
+
+ /* <!-- =================================================
+                      MEETS CLIENTS SECTION */
+/* ================================================= --> */
+
+.racet{
+    background-color: #F0F3FE;
+    padding: 70px;
+}
+
+.racet .container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.right_racet, .left_racet{
+    padding: 40px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.right_racet img{
+    width: 500px;
+    height: 625px;
+    border-radius: 40px;
+}
+
+.left_racet h5{
+    padding-top: 110px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 530px;
+}
+
+.left_racet h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.left_racet .from{
+    padding: 0px 0 20px;
+
+}
+
+.left_racet p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 530px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
